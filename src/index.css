@@ -1,0 +1,32 @@
+:root {
+  --verde: #00FF08;
+  --cinza: #5c5c5c;
+  --branco: #FFFFFF;
+  --white: #000000;
+  --fonte: "Montserrat", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: var(--fonte);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.border-verde {
+  color: white;
+  border: 1px solid var(--verde);
+}
+
+.cor-verde {
+  color: var(--verde);
+}

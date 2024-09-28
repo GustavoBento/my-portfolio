@@ -1,0 +1,20 @@
+
+.navbar-toggler-icon {
+      background-image: url("../../../public/menu.png");
+      font-size: 35px;
+}
+
+.btn-close {
+      background-image: url("../../../public/close.png");  
+      font-size: 35px;
+}
+
+.nav-link {
+      color: var(--cinza);
+      font-size: 18px;
+}
+
+.nav-link:hover {
+      color: white;
+      transition: .4s;
+}

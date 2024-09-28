@@ -1,0 +1,26 @@
+.texto-sobremim {
+      text-align: justify;
+      color: rgba(255, 255, 255, 0.534);
+}
+
+.container-sobremim {
+      max-width: 1400px;
+}
+
+.icon-redesocial {
+      color: var(--branco);
+      padding: 10px 15px;
+      border: 1px solid rgba(255, 255, 255, 0.466);
+      border-radius: 15px;
+}
+
+.icon-redesocial:hover {
+      border: 1px solid var(--branco);
+      transition: .3s;
+}
+
+@media screen and (max-width: 992px) {
+      .image-flutuante {
+            width: 360px;
+      }
+}
