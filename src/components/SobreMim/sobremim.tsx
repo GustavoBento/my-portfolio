@@ -5,7 +5,7 @@ const imageGrande = require("./foto-flutuando.png")
 
 export default function SobreMim() {
   return (
-    <section id="sobre" className="container-fluid py-5 ">
+    <section id="sobre" className="container-xxl py-5 ">
       <div className="pb-4 text-center mb-3 ">
         <Subtitulo>
           <>
@@ -13,7 +13,7 @@ export default function SobreMim() {
           </>
         </Subtitulo>
       </div>
-      <div className="container-fluid  row container-sobremim mx-auto mt-xxl-3">
+      <div className="  row  mx-auto mt-xxl-3">
         <div className="col-12 col-md-6 mb-4">
           <h4 className="mt-lg-5 mb-3">
             <span className="cor-verde">&#124;</span> Um pouco sobre mim
@@ -31,20 +31,21 @@ export default function SobreMim() {
           </p>
 
           <div className="d-flex gap-4 fs-4 mt-5 my-3">
-            <a href="https://www.instagram.com/gustavobentto_/" target="_blank" rel="noreferrer">
+            <a className="link-icon-social" href="https://www.instagram.com/gustavobentto_/" target="_blank" rel="noreferrer">
               <i className="bi bi-instagram icon-redesocial"></i>
             </a>
             <a
+               className="link-icon-social"
               href="https://www.linkedin.com/in/gustavo-bento/"
               target="_blank"
               rel="noreferrer"
             >
               <i className="bi bi-linkedin icon-redesocial"></i>
             </a>
-            <a href="https://github.com/gustavobento" target="_blank" rel="noreferrer">
+            <a className="link-icon-social" href="https://github.com/gustavobento" target="_blank" rel="noreferrer">
               <i className="bi bi-github icon-redesocial"></i>
             </a>
-            <a href="mailto:gustavobentodev@gmail.com">
+            <a className="link-icon-social" href="mailto:gustavobentodev@gmail.com">
               <i className="bi bi-envelope icon-redesocial"></i>
             </a>
           </div>

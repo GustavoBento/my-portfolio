@@ -1,5 +1,10 @@
 .card {
       width: 19rem;
+      height: 350px;
+}
+
+.card-texto {
+      font-size: 14px;
 }
 
 .card-especialidades {

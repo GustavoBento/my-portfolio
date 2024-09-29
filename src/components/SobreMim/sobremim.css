@@ -3,9 +3,6 @@
       color: rgba(255, 255, 255, 0.534);
 }
 
-.container-sobremim {
-      max-width: 1400px;
-}
 
 .icon-redesocial {
       color: var(--branco);
@@ -16,6 +13,12 @@
 
 .icon-redesocial:hover {
       border: 1px solid var(--branco);
+      transform: scale(1.05);
+      transition: .3s;
+}
+
+.link-icon-social:hover {
+      transform: scale(1.15);
       transition: .3s;
 }
 
