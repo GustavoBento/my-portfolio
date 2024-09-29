@@ -1,4 +1,4 @@
-import Subtitulo from "../Subtitulo/subtitulo";
+import Titulo from "../Titulo/titulo";
 import "./especialidades.css";
 
 const iconeHtml = require("../../assets/logo-html.png");
@@ -12,11 +12,11 @@ export default function Especialidades() {
   return (
     <section className="container-xxl py-5 ">
       <div className="text-uppercase text-center py-5">
-        <Subtitulo>
-          <>
-            <span className="cor-verde">&gt;</span>Minhas especialidades
-          </>
-        </Subtitulo>
+        <Titulo>
+          <div className="fs-1">
+          Minhas <span className="cor-verde">especialidades</span> 
+          </div>
+        </Titulo>
       </div>
       <div className="row">
         <div className="col-12 col-md-6 col-lg-4">

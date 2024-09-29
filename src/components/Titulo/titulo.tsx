@@ -1,7 +1,8 @@
+import { ReactElement } from 'react'
 import './titulo.css'
 
 interface TituloProps {
-      children: string
+      children: ReactElement | string
 }
 
 export default function Titulo({children}:TituloProps) {
