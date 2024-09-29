@@ -18,7 +18,7 @@ export default function Especialidades() {
           </div>
         </Titulo>
       </div>
-      <div className="row">
+      <div className="row container-fluid">
         <div className="col-12 col-md-6 col-lg-4">
           <div className="card card-especialidades text-white  py-3 my-5 mx-auto ">
             <img className="w-50 mx-auto" src={iconeHtml} alt="logo do html5" />

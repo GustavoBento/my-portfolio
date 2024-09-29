@@ -33,6 +33,12 @@
       }
 }
 
+@media screen and (max-width: 400px){
+      .image-flutuante {
+            width: 300px;
+      }
+}
+
 @keyframes flutuarImagem {
       0% {top: 0px;}
       100% {top: 30px;}

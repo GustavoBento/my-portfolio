@@ -34,3 +34,10 @@
   .overlay:hover {
       opacity: 1;
   }
+
+  @media screen and (max-width: 420px) {
+    .img_port {
+        width: 300px;
+        height: 400px;
+    }
+  }
