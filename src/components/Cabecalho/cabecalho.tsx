@@ -1,7 +1,8 @@
 import Botao from "../Botao/botao";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./cabecalho.css";
-import curriculo from '../../assets/curriculo.pdf'
+
+const curriculo = require("../../assets/curriculo.pdf")
 
 export default function Cabecalho() {
   return (
@@ -23,7 +24,7 @@ export default function Cabecalho() {
           </button>
           <div
             className="offcanvas offcanvas-end bg-black  "
-            tabindex="-1"
+            tabIndex={-1}
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
           >
@@ -38,18 +39,18 @@ export default function Cabecalho() {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-center flex-grow-1 pe-3 gap-4 gap-lg-2">
                 <li className="nav-item">
-                  <a className="nav-link" aria-current="page" href="#">
+                  <a className="nav-link" aria-current="page" href="#inicio">
                     Início
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#sobre">
+                    Sobre
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">
                     Especialidades
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Sobre
                   </a>
                 </li>
                 <li className="nav-item">

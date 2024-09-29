@@ -1,13 +1,16 @@
 import Subtitulo from "../Subtitulo/subtitulo";
 import "./sobremim.css";
-import imageGrande from "./foto-flutuando.png";
+
+const imageGrande = require("./foto-flutuando.png")
 
 export default function SobreMim() {
   return (
-    <section className="container-fluid pb-5 ">
+    <section id="sobre" className="container-fluid py-5 ">
       <div className="pb-4 text-center mb-3 ">
         <Subtitulo>
+          <>
           <span className="cor-verde">&gt; </span>SOBRE MIM
+          </>
         </Subtitulo>
       </div>
       <div className="container-fluid  row container-sobremim mx-auto mt-xxl-3">
@@ -29,20 +32,20 @@ export default function SobreMim() {
 
           <div className="d-flex gap-4 fs-4 mt-5 my-3">
             <a href="https://www.instagram.com/gustavobentto_/" target="_blank" rel="noreferrer">
-              <i class="bi bi-instagram icon-redesocial"></i>
+              <i className="bi bi-instagram icon-redesocial"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/gustavo-bento/"
               target="_blank"
               rel="noreferrer"
             >
-              <i class="bi bi-linkedin icon-redesocial"></i>
+              <i className="bi bi-linkedin icon-redesocial"></i>
             </a>
             <a href="https://github.com/gustavobento" target="_blank" rel="noreferrer">
-              <i class="bi bi-github icon-redesocial"></i>
+              <i className="bi bi-github icon-redesocial"></i>
             </a>
             <a href="mailto:gustavobentodev@gmail.com">
-              <i class="bi bi-envelope icon-redesocial"></i>
+              <i className="bi bi-envelope icon-redesocial"></i>
             </a>
           </div>
         </div>

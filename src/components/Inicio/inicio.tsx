@@ -5,14 +5,18 @@ import "./inicio.css";
 
 export default function Inicio() {
   return (
-    <section className="container container-inicio d-flex flex-column justify-content-center text-center pb-5">
+    <section id="inicio" className="container container-inicio d-flex flex-column justify-content-center text-center pb-5" >
             <Titulo>Olá e bem vindo(a)</Titulo>
             <Subtitulo>
+              <>
               Eu sou o <span className="texto-verde">Gustavo Bento</span>
+              </>
             </Subtitulo>
             <h5 className="fst-italic fw-light">Desenvolvedor Front-end</h5>
             <div className="text-black mt-3">
-                  <Botao>Saiba mais</Botao>
+                  <a href="#sobre">
+                    <Botao>Saiba mais</Botao>
+                  </a>
             </div>
     </section>
   );
