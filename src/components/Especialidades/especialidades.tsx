@@ -10,7 +10,7 @@ const iconeTypescript = require("../../assets/logo-typescript.png");
 
 export default function Especialidades() {
   return (
-    <section className="container-xxl py-5 ">
+    <section className="container-xxl py-5" id="especialidades">
       <div className="text-uppercase text-center py-5">
         <Titulo>
           <div className="fs-1">

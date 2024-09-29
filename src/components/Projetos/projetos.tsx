@@ -8,7 +8,7 @@ const projetoCinetag = require("../../assets/projeto-cinetag.png");
 
 export default function Projetos() {
   return (
-    <section className="container-xxl py-5 " id="projeto">
+    <section className="container-xxl py-5 " id="projetos">
       <div className="interface">
         <div className="text-center pb-5">
               <Titulo>

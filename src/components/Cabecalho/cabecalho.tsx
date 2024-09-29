@@ -49,13 +49,13 @@ export default function Cabecalho() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#especialidades">
                     Especialidades
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Projeto
+                  <a className="nav-link" href="#projetos">
+                    Projetos
                   </a>
                 </li>
                 <li className="nav-item">
