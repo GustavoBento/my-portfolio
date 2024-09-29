@@ -3,6 +3,11 @@
       color: rgba(255, 255, 255, 0.534);
 }
 
+.image-flutuante {
+      position: relative;
+      animation: flutuarImagem 2s infinite ease-in-out alternate;
+}
+
 
 .icon-redesocial {
       color: var(--branco);
@@ -26,4 +31,9 @@
       .image-flutuante {
             width: 360px;
       }
+}
+
+@keyframes flutuarImagem {
+      0% {top: 0px;}
+      100% {top: 30px;}
 }

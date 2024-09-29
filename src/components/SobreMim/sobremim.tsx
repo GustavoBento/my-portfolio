@@ -1,7 +1,7 @@
 import Titulo from "../Titulo/titulo";
 import "./sobremim.css";
 
-const imageGrande = require("./foto-flutuando.png");
+const imageGrande = require("./foto-flutuante.png");
 
 export default function SobreMim() {
   return (
