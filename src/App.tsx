@@ -3,6 +3,7 @@ import Especialidades from "./components/Especialidades/especialidades";
 import Formulario from "./components/Formulario/formulario";
 import Inicio from "./components/Inicio/inicio";
 import Projetos from "./components/Projetos/projetos";
+import Rodape from "./components/Rodape/rodape";
 import SobreMim from "./components/SobreMim/sobremim";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Projetos />
             <Formulario />
         </main>
+        <Rodape />
     </div>
   );
 }
