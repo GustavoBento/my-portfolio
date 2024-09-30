@@ -13,7 +13,7 @@ export default function Formulario() {
         </div>
       </Titulo>
       <form
-        className="formulario mx-auto "
+        className="formulario mx-auto mb-4 "
         action="https://api.staticforms.xyz/submit"
         method="post"
       >
