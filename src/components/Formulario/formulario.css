@@ -1,0 +1,12 @@
+.formulario {
+      max-width: 500px;
+}
+
+.formulario button {
+      padding: 20px 40px;
+}
+
+.caixa-texto {
+      resize: none;
+      max-height: 200px;
+}

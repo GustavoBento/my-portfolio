@@ -1,12 +1,13 @@
 .botao-verde {
       background-color: var(--verde);
       padding: 8px 40px;
+      color: var(--preto);
 }
 
 .botao-verde:hover {
+      color: var(--preto);
       box-shadow: 0 0 8px var(--verde);
       background-color: var(--verde);
-      color: var(--preto);
       transform: scale(1.05);
       transition: .3s;
 }
