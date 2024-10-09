@@ -20,7 +20,7 @@ export default function SobreMim() {
           </h4>
           <p className="fw-link-light texto-sobremim">
             Olá, eu sou Gustavo, um desenvolvedor front-end especializado em
-            HTML, CSS, Bootstrap, JavaScript e React. Desde que me interessei na
+            HTML, CSS, Bootstrap, JavaScript, React e Typescript. Desde que me interessei na
             área da programação, venho estudando diariamente para conseguir a
             minha primeira oportunidade como desenvolvedor front-end. Há dois
             anos que venho desenvolvendo diversos projetos para colocar em
