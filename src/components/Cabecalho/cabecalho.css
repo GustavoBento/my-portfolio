@@ -8,6 +8,12 @@
       background-image: url("../../../public/close.png");  
       font-size: 35px;
 }
+.nav-link:focus, 
+.nav-link:active, 
+.nav-link:visited {
+  color: var(--cinza);
+  text-decoration: none; 
+}
 
 .nav-link {
       color: var(--cinza);

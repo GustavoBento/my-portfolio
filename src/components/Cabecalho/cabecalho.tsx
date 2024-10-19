@@ -4,10 +4,7 @@ import "./cabecalho.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { useEffect, useRef } from "react";
-
-const curriculo = require("../../assets/curriculo.pdf")
-
-
+const curriculo = require("../../assets/curriculo.pdf");
 
 export default function Cabecalho() {
   const offcanvasRef = useRef<HTMLDivElement | null>(null);
@@ -17,7 +14,7 @@ export default function Cabecalho() {
       const target = event.target as HTMLElement;
       const offcanvas = offcanvasRef.current;
 
-      if (offcanvas && target.tagName === "A") {
+      if (offcanvas && target.tagName === "A" && !target.classList.contains('download-link')) {
         event.preventDefault();
         offcanvas.classList.remove("show");
         offcanvas.style.visibility = "hidden";
@@ -60,12 +57,15 @@ export default function Cabecalho() {
         document.body.style.overflow = "hidden";
       }
 
-      // Remover backdrop antigo
       const backdrop = document.querySelector(".offcanvas-backdrop");
       if (backdrop) {
         backdrop.remove();
       }
     }
+  };
+
+  const handleDownloadClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    event.stopPropagation(); // Impede que o evento de clique global seja acionado
   };
 
   return (
@@ -124,11 +124,12 @@ export default function Cabecalho() {
                 </li>
                 <li className="nav-item">
                   <a
-                    className="nav-link mb-4 mb-lg-0"
+                    className="nav-link mb-4 mb-lg-0 download-link"
                     href={curriculo}
                     target="_blank"
                     download
                     rel="noreferrer"
+                    onClick={handleDownloadClick}
                   >
                     Currículo <i className="bi bi-download"></i>
                   </a>
