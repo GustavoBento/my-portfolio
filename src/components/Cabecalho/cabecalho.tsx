@@ -69,7 +69,7 @@ export default function Cabecalho() {
   };
 
   return (
-    <header className="container-fluid py-3">
+    <header className="container-fluid py-3 mb-3">
       <nav className="navbar navbar-expand-lg">
         <div className="container d-flex">
           <div className="border-verde p-3 fs-5 fw-bold rounded-4">

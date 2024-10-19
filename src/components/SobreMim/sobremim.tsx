@@ -7,7 +7,7 @@ const imageGrande = require("./foto-flutuando.png");
 export default function SobreMim() {
   UsarIntersectionObserver()
   return (
-    <section id="sobre" className="container-xxl  hidden ">
+    <section id="sobre" className="container-xx py-5  hidden ">
       <div className="pb-4 text-center mb-3 ">
         <Titulo>
           <div className="fs-1 text-uppercase">
@@ -27,8 +27,8 @@ export default function SobreMim() {
 
           <p className="fw-link-light texto-sobremim">A minha experiência no Supermercado Silveira foi muito importante para mim, pois nela desenvolvi diversas habilidades fundamentais.</p>
 
-          <div className="d-flex gap-5">
-            <p className="fw-link-light texto-sobremim">
+          <div className="d-flex flex-column flex-lg-row gap-lg-5 ">
+            <p className="fw-link-light texto-sobremim text-start">
               Chefe de Caixa: <br />
               • Atendimento ao cliente <br />
               • Supervisão de equipe <br />
@@ -38,7 +38,7 @@ export default function SobreMim() {
               • Segurança e conformidade <br />
               • Comunicação
             </p>
-            <p className="fw-link-light texto-sobremim">
+            <p className="fw-link-light texto-sobremim text-start">
               Auxiliar Administrativo: <br />
               • Verificação de documentos <br />
               • Registro de informações <br />
