@@ -28,7 +28,7 @@ export default function Formulario() {
         <input
           type="hidden"
           name="redirectTo"
-          value="https://gustavobento.github.io/portfolio/"
+          value="https://gustavobento-dev.com.br/"
         />
         {/* ENVIO DO FORMULÁRIO */}
         <div className="input-group gap-3">
