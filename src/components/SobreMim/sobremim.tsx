@@ -7,7 +7,7 @@ const imageGrande = require("./foto-flutuando.png");
 export default function SobreMim() {
   UsarIntersectionObserver()
   return (
-    <section id="sobre" className="container-xx py-5  hidden ">
+    <section id="sobre" className="container-xxl py-5  hidden ">
       <div className="pb-4 text-center mb-3 ">
         <Titulo>
           <div className="fs-1 text-uppercase">
