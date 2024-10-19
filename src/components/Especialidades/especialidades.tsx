@@ -1,3 +1,4 @@
+import { UsarIntersectionObserver } from "../Intersection/intersection";
 import Titulo from "../Titulo/titulo";
 import "./especialidades.css";
 
@@ -8,9 +9,11 @@ const iconeJs = require("../../assets/logo-javascript.png");
 const iconeReact = require("../../assets/logo-react.png");
 const iconeTypescript = require("../../assets/logo-typescript.png");
 
+
 export default function Especialidades() {
+  UsarIntersectionObserver()
   return (
-    <section className="container-xxl py-5" id="especialidades">
+    <section className="container-xxl  hidden" id="especialidades">
       <div className="text-uppercase text-center py-5">
         <Titulo>
           <div className="fs-1">

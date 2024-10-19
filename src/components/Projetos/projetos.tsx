@@ -1,4 +1,5 @@
 import ImagemProjeto from "../ImagemProjeto/imagemProjeto";
+import { UsarIntersectionObserver } from "../Intersection/intersection";
 import Titulo from "../Titulo/titulo";
 import "./projetos.css";
 
@@ -7,8 +8,9 @@ const projetoOrgano = require("../../assets/projeto-organo.png");
 const projetoCinetag = require("../../assets/projeto-cinetag.png");
 
 export default function Projetos() {
+  UsarIntersectionObserver()
   return (
-    <section className="container-xxl py-5 " id="projetos">
+    <section className="container-xxl py-5 hidden " id="projetos">
       <div className="interface">
         <div className="text-center pb-5">
               <Titulo>

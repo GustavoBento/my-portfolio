@@ -1,11 +1,13 @@
+import { UsarIntersectionObserver } from "../Intersection/intersection";
 import Titulo from "../Titulo/titulo";
 import "./sobremim.css";
 
-const imageGrande = require("./foto-flutuante.png");
+const imageGrande = require("./foto-flutuando.png");
 
 export default function SobreMim() {
+  UsarIntersectionObserver()
   return (
-    <section id="sobre" className="container-xxl py-5 ">
+    <section id="sobre" className="container-xxl  hidden ">
       <div className="pb-4 text-center mb-3 ">
         <Titulo>
           <div className="fs-1 text-uppercase">
@@ -19,16 +21,35 @@ export default function SobreMim() {
             <span className="cor-verde">&#124;</span> Um pouco sobre mim
           </h4>
           <p className="fw-link-light texto-sobremim">
-            Olá, eu sou Gustavo, um desenvolvedor front-end especializado em
-            HTML, CSS, Bootstrap, JavaScript, React e Typescript. Desde que me interessei na
-            área da programação, venho estudando diariamente para conseguir a
-            minha primeira oportunidade como desenvolvedor front-end. Há dois
-            anos que venho desenvolvendo diversos projetos para colocar em
-            prática todo o meu conhecimento que venho aprendendo nos cursos, e
-            tenho certeza que estou pronto para somar na sua equipe de
-            programadores. Tenho Facilidade de aprendizado, boa comunicação e a
-            todo momento busco me aprimorar cada vez mais.
-          </p>
+          Olá, sou Gustavo, um Desenvolvedor Front-End apaixonado por criar interfaces dinâmicas e responsivas. Tenho expertise em HTML5, CSS3, JavaScript, Bootstrap, React e TypeScript, com um histórico de projetos bem-sucedidos que melhoraram significativamente a experiência do usuário.</p>
+
+          <p className="fw-link-light texto-sobremim">Estou em busca de novas oportunidades para aplicar minhas habilidades em desenvolvimento web e contribuir para o sucesso de uma empresa inovadora.</p>
+
+          <p className="fw-link-light texto-sobremim">A minha experiência no Supermercado Silveira foi muito importante para mim, pois nela desenvolvi diversas habilidades fundamentais.</p>
+
+          <div className="d-flex gap-5">
+            <p className="fw-link-light texto-sobremim">
+              Chefe de Caixa: <br />
+              • Atendimento ao cliente <br />
+              • Supervisão de equipe <br />
+              • Gestão de caixa <br />
+              • Fechamento e relatórios <br />
+              • Manutenção de equipamentos <br />
+              • Segurança e conformidade <br />
+              • Comunicação
+            </p>
+            <p className="fw-link-light texto-sobremim">
+              Auxiliar Administrativo: <br />
+              • Verificação de documentos <br />
+              • Registro de informações <br />
+              • Controle de estoque <br />
+              • Comunicação com fornecedores <br />
+              • Suporte á contabilidade <br />
+              • Conformidade legal <br />
+              • Relatórios
+            </p>
+          </div>
+          
 
           <div className="d-flex gap-4 fs-4 mt-5 my-3">
             <a

@@ -1,12 +1,14 @@
 import Botao from "../Botao/botao";
 import Input from "../Input/input";
+import { UsarIntersectionObserver } from "../Intersection/intersection";
 import Titulo from "../Titulo/titulo";
 import "./formulario.css";
 
 export default function Formulario() {
-  
+
+  UsarIntersectionObserver()
   return (
-    <section className="container-xxl py-5">
+    <section className="container-xxl py-5 hidden">
       <Titulo>
         <div className="text-uppercase text-center fs-1 pb-5">
           Entre em <span className="cor-verde">contato</span>
