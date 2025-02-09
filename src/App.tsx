@@ -1,3 +1,4 @@
+import "./App.css"
 import Cabecalho from "./components/Cabecalho/cabecalho";
 import Especialidades from "./components/Especialidades/especialidades";
 import Formulario from "./components/Formulario/formulario";

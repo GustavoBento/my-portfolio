@@ -1,0 +1,13 @@
+/* Define estilos para navegadores baseados no Webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 7px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Cor do fundo da barra */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00FF08; /* Cor da barra de rolagem */
+  border-radius: 10px; /* Bordas arredondadas */
+}
